@@ -114,6 +114,9 @@ namespace SharpDoor
                 executeCommand("sc start \"TrustedInstaller\"");
                 Thread.Sleep(2000);
 
+                executeCommand("icacls \"C:\\Windows\\System32\\termsrv.dll\" /setowner \"NT SERVICE\\TrustedInstaller\"");
+                executeCommand("icacls \"C:\\Windows\\System32\\termsrv.dll\" /grant \"NT SERVICE\\TrustedInstaller:(RX)\"");
+
                 Console.WriteLine("[*] Setting Registry Terminal Server\\fSingleSessionPerUser to 1");
                 RegistryKey reg_key1 = Registry.LocalMachine.CreateSubKey(@"SYSTEM\CurrentControlSet\Control\Terminal Server");
                 reg_key1.SetValue("fSingleSessionPerUser", 1, RegistryValueKind.DWord);
