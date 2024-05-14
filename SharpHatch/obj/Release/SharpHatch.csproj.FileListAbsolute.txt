@@ -1,0 +1,7 @@
+C:\Users\Deviant\source\repos\SharpHatch\SharpHatch\bin\Release\SharpHatch.exe.config
+C:\Users\Deviant\source\repos\SharpHatch\SharpHatch\bin\Release\SharpHatch.exe
+C:\Users\Deviant\source\repos\SharpHatch\SharpHatch\bin\Release\SharpHatch.pdb
+C:\Users\Deviant\source\repos\SharpHatch\SharpHatch\obj\Release\SharpHatch.csproj.CoreCompileInputs.cache
+C:\Users\Deviant\source\repos\SharpHatch\SharpHatch\obj\Release\SharpHatch.exe
+C:\Users\Deviant\source\repos\SharpHatch\SharpHatch\obj\Release\SharpHatch.pdb
+C:\Users\Deviant\source\repos\SharpHatch\SharpHatch\obj\Release\SharpHatch.csproj.AssemblyReference.cache
